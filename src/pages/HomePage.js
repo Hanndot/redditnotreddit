@@ -10,7 +10,7 @@ export default function HomePage() {
             <body className="body">
                 <h1>Hi, Welcome to</h1>
                 <h3>redditnotreddit</h3>
-                <a type="text" href="/">Start searching!</a>
+                <a type="text" href="/search">Start searching!</a>
             </body>
         </div>
         
