@@ -1,0 +1,25 @@
+.search-header {
+    background-color: #fd4500;
+    padding: 15px;
+}
+
+.search-header::before {
+    content: "/r/";
+    display: inline-block;
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search-header input {
+    display: inline-block;
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: #fd4500;
+    outline: none;
+    border: none;
+    appearance: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
