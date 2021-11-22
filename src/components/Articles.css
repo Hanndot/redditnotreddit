@@ -1,0 +1,39 @@
+.articles-card {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 0px 1px #fd4500;
+    display: flex;
+    flex: 1;
+}
+
+#title {
+    background-color: transparent;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+#sr {
+    color: blanchedalmond;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    opacity: 60%;
+    font-size: 12px;
+}
+
+.thumbnail {
+    border-radius: 10px;
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.articles-data {
+    margin-left: 10px;
+}
