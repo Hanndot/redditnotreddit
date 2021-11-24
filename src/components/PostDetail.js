@@ -27,6 +27,7 @@ export default function Postdetail( {post} ) {
                             {post.selftext}
                         </p>
                 }
+                <a href={`https://www.reddit.com${post.permalink}`} target="_blank" rel="noopener">See More</a>
             </article>
         
     );
