@@ -1,12 +1,13 @@
 import React from "react";
+
 import "./AboutPage.css"
 
 export default function AboutPage() {
     return(
-        <div className="about-pg">
-            <header className="about-header">
-                <a type="text" href="/">go back</a>
-            </header>
+        <div className="about">
+            {/* <header className="about-header">
+                <Link className="home-link" to='/'>go back</Link>
+            </header> */}
             <body className="about-body">
                 <div className="content">
                     <h1>About Me and My App</h1>

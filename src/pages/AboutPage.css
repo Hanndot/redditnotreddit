@@ -43,3 +43,17 @@ span {
 p a {
     color: blanchedalmond;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    margin-block: .3em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fd4500;
+    border-radius: 100vw;
+}

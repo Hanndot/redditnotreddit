@@ -1,0 +1,40 @@
+.post-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.post-image {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.post-video {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-selftext {
+    text-align: justify;
+    padding: 10px;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
