@@ -14,5 +14,3 @@ export default function Articles({ article, index, sr }){
        </article>
     );
 }
-
-// TODO Image conditional render

@@ -5,9 +5,6 @@ import "./AboutPage.css"
 export default function AboutPage() {
     return(
         <div className="about">
-            {/* <header className="about-header">
-                <Link className="home-link" to='/'>go back</Link>
-            </header> */}
             <body className="about-body">
                 <div className="content">
                     <h1>About Me and My App</h1>

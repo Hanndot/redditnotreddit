@@ -4,12 +4,6 @@ import SubredditList from "../components/SubredditList";
 import "./SrList.css";
 
 export default function SrList() {
-    // const data = [
-    //     {
-    //         id: 1,
-    //         sr: "",
-    //     },{},{},{},{},{},{},{},{},{},{},{},
-    // ]
     const [data, setData] = useState([]);
     const [isLoaded, setisLoaded] = useState(false);
     const [isLoading, setisLoading] = useState(false);
@@ -28,15 +22,10 @@ export default function SrList() {
                         setData(sr.data.children);
                         setisLoading(false);
                         setisLoaded(true);
-                        // console.log(sr);
                         console.log(data);
                     }
                 })
             })
-            // if (!isLoaded) {
-            //     fetch();
-            // }
-
     },[])
 
     return (

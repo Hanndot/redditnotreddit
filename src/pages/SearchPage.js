@@ -73,20 +73,6 @@ export default function SearchPage() {
     };
 
     return(
-        // <div className="search">
-        //     <header className="search-header">
-        //         <input type="text" className="input" placeholder="all" onKeyDown={(e) => onSearch(e)}></input>
-        //     </header>
-        //     <div className="articles">
-        //         {
-        //             (articles !== null) ? articles.map((article, index) => {
-        //                 return(
-        //                     <Articles key={index} article={article.data} index={index} sr={subreddit} ></Articles>
-        //                 )
-        //             }) : <p>Subreddit is Unavailable</p>
-        //         }
-        //     </div>
-        // </div>
         <div className="search">
             <header className="search-header">
                 <input type="text" className="input" placeholder="all" onKeyDown={(e) => onSearch(e)}></input>
